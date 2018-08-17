@@ -5,10 +5,19 @@
     <link>https://helloworldbr.github.io/categories/</link>
     <description>Recent content in Categories on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
+    <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://helloworldbr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aplicativos</title>
+      <link>https://helloworldbr.github.io/categories/aplicativos/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/aplicativos/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
