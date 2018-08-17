@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello World Brasil</title>
-    <link>http://helloworldbr.github.io/</link>
+    <link>https://helloworldbr.github.io/</link>
     <description>Recent content on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 17 Aug 2018 12:18:00 -0300</lastBuildDate>
     
-	<atom:link href="http://helloworldbr.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://helloworldbr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home</title>
-      <link>http://helloworldbr.github.io/home/</link>
+      <link>https://helloworldbr.github.io/home/</link>
       <pubDate>Fri, 17 Aug 2018 12:18:00 -0300</pubDate>
       
-      <guid>http://helloworldbr.github.io/home/</guid>
+      <guid>https://helloworldbr.github.io/home/</guid>
       <description>Esse ambiente é um projeto livre dos irmãos @bugotech e @tihhgoncalves sobre tecnologia. Os conteúdos aqui divulgados para fins de ajuda a outros desenvolvedores.
 Esse também é um projeto colaborativo e você pode contribuir com 100% desse site acessando o repositório e fazendo sua contribuição via Fork.
 Repositório — 
