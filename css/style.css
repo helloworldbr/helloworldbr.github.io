@@ -388,8 +388,10 @@
 .content sub {
   bottom: -0.2em;
 }
-.content small {
+.content small,
+.content small a{
   font-size: 0.85em;
+  color: #666;
 }
 .content acronym,
 .content abbr {
