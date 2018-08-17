@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Blog</title>
+      <link>https://helloworldbr.github.io/blog/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/blog/</guid>
+      <description>Todos os Artigos {{ range (where .Pages &amp;ldquo;Type&amp;rdquo; &amp;ldquo;post&amp;rdquo;) }} - {{ .Date.Format &amp;ldquo;Mon,02/Jan/2006&amp;rdquo; }} {{ .Title }}  {{ end }}</description>
+    </item>
+    
+    <item>
       <title>Home</title>
       <link>https://helloworldbr.github.io/home/</link>
       <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
@@ -20,6 +29,15 @@
 Esse também é um projeto colaborativo e você pode contribuir com 100% desse site acessando o repositório e fazendo sua contribuição via Fork.
 Repositório — 
 </description>
+    </item>
+    
+    <item>
+      <title>Sobre nós</title>
+      <link>https://helloworldbr.github.io/about/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/about/</guid>
+      <description>Sobre Nós [será redigido]</description>
     </item>
     
   </channel>

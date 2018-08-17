@@ -3,7 +3,7 @@
 <head>
 
   
-  <title>Pages - Hello World Brasil</title>
+  <title>Blog - Hello World Brasil</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
@@ -56,6 +56,16 @@
     </div>
   </header>
 
+<p class="timestamp">August 17, 2018</p>
+
+
+
+<h1 id="todos-os-artigos">Todos os Artigos</h1>
+
+<p>{{ range (where .Pages &ldquo;Type&rdquo; &ldquo;post&rdquo;) }}
+ - {{ .Date.Format &ldquo;Mon,02/Jan/2006&rdquo; }} <a href="{{ .RelPermalink }}/?utm_source=home-posts">{{ .Title }}</a>
+</li>
+{{ end }}</p>
 
 
 
