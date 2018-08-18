@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Hello World Brasil</title>
-    <link>https://helloworldbr.github.io/categories/ubuntu/</link>
-    <description>Recent content in Ubuntu on Hello World Brasil</description>
+    <title>Beyond Compare on Hello World Brasil</title>
+    <link>https://helloworldbr.github.io/tags/beyond-compare/</link>
+    <description>Recent content in Beyond Compare on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://helloworldbr.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://helloworldbr.github.io/tags/beyond-compare/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

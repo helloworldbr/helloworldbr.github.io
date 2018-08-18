@@ -2,13 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Hello World Brasil</title>
-    <link>http://helloworldbr.github.io/categories/</link>
+    <link>https://helloworldbr.github.io/categories/</link>
     <description>Recent content in Categories on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
+    <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://helloworldbr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://helloworldbr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Apps</title>
+      <link>https://helloworldbr.github.io/categories/apps/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://helloworldbr.github.io/categories/ubuntu/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/ubuntu/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
