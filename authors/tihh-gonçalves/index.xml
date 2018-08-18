@@ -6,10 +6,20 @@
     <description>Recent content in Tihh Gonçalves on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://helloworldbr.github.io/authors/tihh-gon%C3%A7alves/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Ubuntu] O comando LS mais amigável</title>
+      <link>https://helloworldbr.github.io/ubuntu-o-comando-ls-mais-amigavel/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/ubuntu-o-comando-ls-mais-amigavel/</guid>
+      <description>No terminal do linux, o comando ls é um comando clássico que lista tudo o que tem dentro de um diretório. Porém, por padrão, ele vem em um formato que eu não acho que tenha a melhor visualização do conteúdo. Dai, eu sempre tenho que ficar colocando os parâmetros na mão pra que apareça da maneira que eu mais gosto, que é a seguinte&amp;gt;
+ls -lha  O truque é muito simples, vamos criar, na verdade, um alias pra sempre que alguém digitar ls no terminal, seja executado ls -lha.</description>
+    </item>
     
     <item>
       <title>[RegEx] Localizar Código do Youtube</title>

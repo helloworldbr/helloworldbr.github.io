@@ -3,7 +3,7 @@
 <head>
 
   
-  <title>[Ubuntu] Instalando o Beyond Compare 4 (crackeado) - Hello World Brasil</title>
+  <title>[Ubuntu] O comando LS mais amigável - Hello World Brasil</title>
 
   
   <meta charset="utf-8">
@@ -53,19 +53,19 @@
 
 <header class="tb-post-header">
   <h1 class="tb-hero-title">
-    [Ubuntu] Instalando o Beyond Compare 4 (crackeado)
+    [Ubuntu] O comando LS mais amigável
   </h1>
   <p class="tb-hero-p">
-    Instale (inclusive crackeado) o melhor comparador de arquivos que existe. 
+    Deixe o comando LS no formato visual que mais você acha interessante e organizado.
   </p>
   <small>
   
 <span class="tb-author">por <a href="/authors/tihh-gon%C3%A7alves">Tihh Gonçalves</a></span>
 
 
-  <span class="tb-postdate">16/08/2018</span>
-  <a href="https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/#disqus_thread" class="tb-lnk-comments">Comentários</a>
-  <span class="tb-post-time-read">~ 1 min. / 176 palavras</span>
+  <span class="tb-postdate">18/08/2018</span>
+  <a href="https://helloworldbr.github.io/ubuntu-o-comando-ls-mais-amigavel/#disqus_thread" class="tb-lnk-comments">Comentários</a>
+  <span class="tb-post-time-read">~ 2 min. / 252 palavras</span>
   </small>
 </header>
 
@@ -73,40 +73,34 @@
 
   <section class="tb-post-content">
     <article class="tb-post-article">
-      
+      <p>No terminal do linux, o comando <code>ls</code> é um comando clássico que lista tudo o que tem dentro de um diretório.
+Porém, por padrão, ele vem em um formato que eu não acho que tenha a melhor visualização do conteúdo.
+Dai, eu sempre tenho que ficar colocando os parâmetros na mão pra que apareça da maneira que eu mais gosto, que é a seguinte&gt;</p>
 
-<p>Um app que não pode faltar no meu setup de desenvolvimento é o Beyond Compare. Acho que nem sei mais trabalhar sem esse fantástico comparador de arquivos (inclusive que estão na nuvem).</p>
-
-<p>Bom, vamos lá… vou ensinar nesse artigo como instalar qualquer versão do Beyond Compare 4 no Ubuntu.</p>
-
-<hr />
-
-<h2 id="siga-as-instruções">Siga as instruções</h2>
-
-<p><strong>Primeiro</strong>, vamos baixar no site oficial do app a versão 4, pra isso <a href="https://www.scootersoftware.com/download.php">clique aqui</a>. No meu caso que uso a distribuição do Ubuntu, baixei a versão Linux em Debian, segue o link.</p>
-
-<p><strong>Segundo</strong>, instale o aplicativo e escolha a versão <em>trial</em>.</p>
-
-<p><strong>Terceiro</strong>, rode um script pra apagarmos o modo de teste. Cole no seu terminal:</p>
-
-<pre><code>sudo sed -i &quot;s/keexjEP3t4Mue23hrnuPtY4TdcsqNiJL-5174TsUdLmJSIXKfG2NGPwBL6vnRPddT7tH29qpkneX63DO9ECSPE9rzY1zhThHERg8lHM9IBFT+rVuiY823aQJuqzxCKIE1bcDqM4wgW01FH6oCBP1G4ub01xmb4BGSUG6ZrjxWHJyNLyIlGvOhoY2HAYzEtzYGwxFZn2JZ66o4RONkXjX0DF9EzsdUef3UAS+JQ+fCYReLawdjEe6tXCv88GKaaPKWxCeaUL9PejICQgRQOLGOZtZQkLgAelrOtehxz5ANOOqCaJgy2mJLQVLM5SJ9Dli909c5ybvEhVmIC0dc9dWH+/N9KmiLVlKMU7RJqnE+WXEEPI1SgglmfmLc1yVH7dqBb9ehOoKG9UE+HAE1YvH1XX2XVGeEqYUY-Tsk7YBTz0WpSpoYyPgx6Iki5KLtQ5G-aKP9eysnkuOAkrvHU8bLbGtZteGwJarev03PhfCioJL4OSqsmQGEvDbHFEbNl1qJtdwEriR+VNZts9vNNLk7UGfeNwIiqpxjk4Mn09nmSd8FhM4ifvcaIbNCRoMPGl6KU12iseSe+w+1kFsLhX+OhQM8WXcWV10cGqBzQE9OqOLUcg9n0krrR3KrohstS9smTwEx9olyLYppvC0p5i7dAx2deWvM1ZxKNs0BvcXGukR+/g&quot; /usr/lib/beyondcompare/BCompare
+<pre><code>ls -lha
 </code></pre>
 
-<p><strong>Quarto</strong>, se a versão trial já estava aberta (provavelmente abre após você instalar), reinicie ela (feche e abra novamente).</p>
+<p>O truque é muito simples, vamos criar, na verdade, um <em>alias</em> pra sempre que alguém digitar <code>ls</code> no terminal, seja executado <code>ls -lha</code>.
+Vale ressaltar que se alguém prefere outra maneira diferente do meu <code>ls -lha</code> também pode utilizar esse macete.</p>
 
-<p><strong>Quinto e último</strong>, quando abrir, faça o registro com a seguinte licença:</p>
+<p>Vamos lá&hellip;</p>
 
-<pre><code>--- BEGIN LICENSE KEY ---
-ayvZeJDYPBHS4J-1K6g6bDBuPoo0G-oGAq35blZtAoRqC-qQeSz28XAzX
-6nTx9laTMLRCp6nAIhHNGZ2ehkeUfbnFaxEeLvI8fJavn-XQLNbOumCLU
-qgdNbNMZiFRU03+OTQnw4V-E2YKTYi-LkgPzE6R-yIJGDNWfxH2AdpIgg
-8rlpsbrTs9Dt1zysUfvAEi0dKbmGIi3rqf7yWmwDh1AI5VyoWFIejvJwJ
-Lmlr2CjQ1VZ3DySCfBDuKcYmOCeK7jzEWPUnAw+f9360nIiiNEB0YGkwB
-kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
---- END LICENSE KEY -----
+<pre><code>alias ls=&quot;ls -lha&quot;
 </code></pre>
 
-<p>Pronto! Já é pra tudo estar funcionando. Boas comparações pra vocês!</p>
+<p>Pronto, agora execute o comando <code>ls</code> e já é pra estar assumindo o <code>ls -lha</code> automaticamente.</p>
+
+<p>Porém não sei se você sabe, mas no momento que você fechar o seu terminal, esse <em>script</em> que acabamos de digitar se tornará obsoleto, ou seja, quando você abrir o terminal futuramente, o <code>ls</code> continuará como sempre foi, sem o nosso <code>alias</code>funcionando.
+Precisamos agora, então, adicionar um arquivo global  que execute sozinho o nosso <em>script</em> toda vez que o terminal for aberto.</p>
+
+<p>Para fazer isso, basta rodar o <em>script</em> abaixo:</p>
+
+<pre><code>echo &quot;alias ls='ls -lha'&quot; &gt;&gt; ~/.bashrc
+</code></pre>
+
+<p>Se você preferir (e é o que eu faço), você pode abrir o arquivo .bashrc no seu editor e adicionar o <em>script</em> manualmente no final, colocando um comentário bonitinho e tudo mais.</p>
+
+<p>Espero ter ajudado você! Qualquer ajuda ou dúvida, deixe seu comentário.</p>
 
 <p>Grande abraço,</p>
 
@@ -120,6 +114,13 @@ kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
     <div class="tb-related-posts">
 
        
+      <h3>Leia mais aqui no Tableless:</h3>
+      <ul>
+        
+        <li><a href="/ubuntu-instalando-beyond-compare-4-crackeado/?utm_source=tablelessRelatedLink" class="tb-related-post">[Ubuntu] Instalando o Beyond Compare 4 (crackeado)</a></li>
+        
+      </ul>
+      
 
     </div>
 
@@ -138,7 +139,7 @@ kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
       
 
       var disqus_config = function () {
-          this.page.url = "https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/";  
+          this.page.url = "https://helloworldbr.github.io/ubuntu-o-comando-ls-mais-amigavel/";  
           this.page.identifier = ""; 
       };
       (function() { 
@@ -168,6 +169,13 @@ kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
   
 
    
+  <h2>Você vai gostar de ler:</h2>
+  <ul>
+    
+    <li><a href="/ubuntu-instalando-beyond-compare-4-crackeado/?utm_source=tablelessSidebarRelatedLink" class="tb-sidebarrelated-post">[Ubuntu] Instalando o Beyond Compare 4 (crackeado)</a></li>
+    
+  </ul>
+  
 
   <h2>Últimos posts</h2>
   <ul>
