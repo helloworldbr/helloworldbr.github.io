@@ -3,7 +3,7 @@
 <head>
 
   
-  <title>[Ubuntu] Instalando o Beyond Compare 4 (crackeado) - Hello World Brasil</title>
+  <title>[RegEx] Localizar Código do Youtube - Hello World Brasil</title>
 
   
   <meta charset="utf-8">
@@ -53,19 +53,19 @@
 
 <header class="tb-post-header">
   <h1 class="tb-hero-title">
-    [Ubuntu] Instalando o Beyond Compare 4 (crackeado)
+    [RegEx] Localizar Código do Youtube
   </h1>
   <p class="tb-hero-p">
-    Instale (inclusive crackeado) o melhor comparador de arquivos que existe. 
+    Indiferente da URL do Youtube que você tenha, essa Expressão Regular retorna pra você somente o código do vídeo.
   </p>
   <small>
   
 <span class="tb-author">por <a href="/authors/tihh-gon%C3%A7alves">Tihh Gonçalves</a></span>
 
 
-  <span class="tb-postdate">16/08/2018</span>
-  <a href="https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/#disqus_thread" class="tb-lnk-comments">Comentários</a>
-  <span class="tb-post-time-read">~ 1 min. / 176 palavras</span>
+  <span class="tb-postdate">17/08/2018</span>
+  <a href="https://helloworldbr.github.io/expressao-regular-pegar-codigo-youtube/#disqus_thread" class="tb-lnk-comments">Comentários</a>
+  <span class="tb-post-time-read">~ 1 min. / 123 palavras</span>
   </small>
 </header>
 
@@ -73,44 +73,33 @@
 
   <section class="tb-post-content">
     <article class="tb-post-article">
-      
+      <p>Volta e meia me deparo com campos de &ldquo;Vídeo do Youtube&rdquo; nos sites que desenvolvo. E um problema grande sempre é como cadastrar esse vídeo, afinal, o Youtube te dá várias opções de URL [e só o que eu preciso é o código do vídeo].</p>
 
-<p>Um app que não pode faltar no meu setup de desenvolvimento é o Beyond Compare. Acho que nem sei mais trabalhar sem esse fantástico comparador de arquivos (inclusive que estão na nuvem).</p>
+<p>Desenvolvi, então, uma Expressão Regular que retorna o código do vídeo indiferente da URL postada.</p>
 
-<p>Bom, vamos lá… vou ensinar nesse artigo como instalar qualquer versão do Beyond Compare 4 no Ubuntu.</p>
+<p>Segue a RE:</p>
 
-<hr />
-
-<h2 id="siga-as-instruções">Siga as instruções</h2>
-
-<p><strong>Primeiro</strong>, vamos baixar no site oficial do app a versão 4, pra isso <a href="https://www.scootersoftware.com/download.php">clique aqui</a>. No meu caso que uso a distribuição do Ubuntu, baixei a versão Linux em Debian, segue o link.</p>
-
-<p><strong>Segundo</strong>, instale o aplicativo e escolha a versão <em>trial</em>.</p>
-
-<p><strong>Terceiro</strong>, rode um script pra apagarmos o modo de teste. Cole no seu terminal:</p>
-
-<pre><code>sudo sed -i &quot;s/keexjEP3t4Mue23hrnuPtY4TdcsqNiJL-5174TsUdLmJSIXKfG2NGPwBL6vnRPddT7tH29qpkneX63DO9ECSPE9rzY1zhThHERg8lHM9IBFT+rVuiY823aQJuqzxCKIE1bcDqM4wgW01FH6oCBP1G4ub01xmb4BGSUG6ZrjxWHJyNLyIlGvOhoY2HAYzEtzYGwxFZn2JZ66o4RONkXjX0DF9EzsdUef3UAS+JQ+fCYReLawdjEe6tXCv88GKaaPKWxCeaUL9PejICQgRQOLGOZtZQkLgAelrOtehxz5ANOOqCaJgy2mJLQVLM5SJ9Dli909c5ybvEhVmIC0dc9dWH+/N9KmiLVlKMU7RJqnE+WXEEPI1SgglmfmLc1yVH7dqBb9ehOoKG9UE+HAE1YvH1XX2XVGeEqYUY-Tsk7YBTz0WpSpoYyPgx6Iki5KLtQ5G-aKP9eysnkuOAkrvHU8bLbGtZteGwJarev03PhfCioJL4OSqsmQGEvDbHFEbNl1qJtdwEriR+VNZts9vNNLk7UGfeNwIiqpxjk4Mn09nmSd8FhM4ifvcaIbNCRoMPGl6KU12iseSe+w+1kFsLhX+OhQM8WXcWV10cGqBzQE9OqOLUcg9n0krrR3KrohstS9smTwEx9olyLYppvC0p5i7dAx2deWvM1ZxKNs0BvcXGukR+/g&quot; /usr/lib/beyondcompare/BCompare
+<pre><code>[http|https]:\/\/(?:youtu\.be\/|(?:[a-z]{2,3}\.)?youtube\.com\/watch(?:\?|#\!)v=)([\w-]{11}).*
 </code></pre>
 
-<p><strong>Quarto</strong>, se a versão trial já estava aberta (provavelmente abre após você instalar), reinicie ela (feche e abra novamente).</p>
+<p>Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</p>
 
-<p><strong>Quinto e último</strong>, quando abrir, faça o registro com a seguinte licença:</p>
+<pre><code>function GetIDYoutube($url){
+    $re = '/[http|https]:\/\/(?:youtu\.be\/|(?:[a-z]{2,3}\.)?youtube\.com\/watch(?:\?|#\!)v=)([\w-]{11}).*/im';
 
-<pre><code>--- BEGIN LICENSE KEY ---
-ayvZeJDYPBHS4J-1K6g6bDBuPoo0G-oGAq35blZtAoRqC-qQeSz28XAzX
-6nTx9laTMLRCp6nAIhHNGZ2ehkeUfbnFaxEeLvI8fJavn-XQLNbOumCLU
-qgdNbNMZiFRU03+OTQnw4V-E2YKTYi-LkgPzE6R-yIJGDNWfxH2AdpIgg
-8rlpsbrTs9Dt1zysUfvAEi0dKbmGIi3rqf7yWmwDh1AI5VyoWFIejvJwJ
-Lmlr2CjQ1VZ3DySCfBDuKcYmOCeK7jzEWPUnAw+f9360nIiiNEB0YGkwB
-kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
---- END LICENSE KEY -----
+    preg_match_all($re, $url, $matches, PREG_SET_ORDER, 0);
+
+    if(!empty($matches[0][1]))
+        return $matches[0][1];
+    else
+        return false;
+}
 </code></pre>
 
-<p>Pronto! Já é pra tudo estar funcionando. Boas comparações pra vocês!</p>
+<p>Espero ter ajudado. Se tiver melhorias, sugira nos comentários.</p>
 
-<p>Grande abraço,</p>
-
-<p>Tiago Gonçalves ©</p>
+<p>Grande abraço,
+Tiago Gonçalves ©</p>
 
     </article>
 
@@ -138,7 +127,7 @@ kdtgaKEEik7aNiI3jXvp5r34wViVJCiX7m2y7pqBV9gZIvP9hP9KPnP++++
       
 
       var disqus_config = function () {
-          this.page.url = "https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/";  
+          this.page.url = "https://helloworldbr.github.io/expressao-regular-pegar-codigo-youtube/";  
           this.page.identifier = ""; 
       };
       (function() { 

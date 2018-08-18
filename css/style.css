@@ -387,8 +387,11 @@
 .content sub {
   bottom: -0.2em;
 }
-.content small {
-  font-size: 0.85em;
+.content small,
+.content small a{
+  font-size: 0.90em;
+  color: #888;
+  border: 0;
 }
 .content acronym,
 .content abbr {
@@ -1410,10 +1413,11 @@ pre {
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
+  background-color: #333;
 }
 pre code {
   display: block;
-  padding: 0;
+  padding: 15px 0;
   border: none;
 }
 code {

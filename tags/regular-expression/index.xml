@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tihh Gonçalves on Hello World Brasil</title>
-    <link>https://helloworldbr.github.io/authors/tihh-gon%C3%A7alves/</link>
-    <description>Recent content in Tihh Gonçalves on Hello World Brasil</description>
+    <title>Regular Expression on Hello World Brasil</title>
+    <link>https://helloworldbr.github.io/tags/regular-expression/</link>
+    <description>Recent content in Regular Expression on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://helloworldbr.github.io/authors/tihh-gon%C3%A7alves/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://helloworldbr.github.io/tags/regular-expression/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 Desenvolvi, então, uma Expressão Regular que retorna o código do vídeo indiferente da URL postada.
 Segue a RE:
 [http|https]:\/\/(?:youtu\.be\/|(?:[a-z]{2,3}\.)?youtube\.com\/watch(?:\?|#\!)v=)([\w-]{11}).*  Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
-    </item>
-    
-    <item>
-      <title>[Ubuntu] Instalando o Beyond Compare 4 (crackeado)</title>
-      <link>https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/</guid>
-      <description>Um app que não pode faltar no meu setup de desenvolvimento é o Beyond Compare. Acho que nem sei mais trabalhar sem esse fantástico comparador de arquivos (inclusive que estão na nuvem).
-Bom, vamos lá… vou ensinar nesse artigo como instalar qualquer versão do Beyond Compare 4 no Ubuntu.
-Siga as instruções Primeiro, vamos baixar no site oficial do app a versão 4, pra isso clique aqui. No meu caso que uso a distribuição do Ubuntu, baixei a versão Linux em Debian, segue o link.</description>
     </item>
     
   </channel>
