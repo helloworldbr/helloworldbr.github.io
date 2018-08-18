@@ -2,53 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello World Brasil</title>
-    <link>https://helloworldbr.github.io/</link>
+    <link>http://helloworldbr.github.io/</link>
     <description>Recent content on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 17 Aug 2018 12:18:00 -0300</lastBuildDate>
     
-	<atom:link href="https://helloworldbr.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://helloworldbr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Blog</title>
-      <link>https://helloworldbr.github.io/blog/</link>
-      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloworldbr.github.io/blog/</guid>
-      <description>Todos os Artigos {{ range (where .Pages &amp;ldquo;Type&amp;rdquo; &amp;ldquo;post&amp;rdquo;) }} - {{ .Date.Format &amp;ldquo;Mon,02/Jan/2006&amp;rdquo; }} {{ .Title }}  {{ end }}</description>
-    </item>
     
     <item>
       <title>Home</title>
-      <link>https://helloworldbr.github.io/home/</link>
-      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      <link>http://helloworldbr.github.io/home/</link>
+      <pubDate>Fri, 17 Aug 2018 12:18:00 -0300</pubDate>
       
-      <guid>https://helloworldbr.github.io/home/</guid>
-      <description>Esse ambiente é um projeto livre dos irmãos @bugotech e @tihhgoncalves sobre tecnologia. Os conteúdos aqui divulgados para fins de ajuda a outros desenvolvedores.
+      <guid>http://helloworldbr.github.io/home/</guid>
+      <description>{{% section id=&amp;ldquo;about&amp;rdquo; %}} Esse ambiente é um projeto livre dos irmãos @bugotech e @tihhgoncalves sobre tecnologia. Os conteúdos aqui divulgados para fins de ajuda a outros desenvolvedores.
 Esse também é um projeto colaborativo e você pode contribuir com 100% desse site acessando o repositório e fazendo sua contribuição via Fork.
 Repositório — 
-</description>
-    </item>
-    
-    <item>
-      <title>Sobre nós</title>
-      <link>https://helloworldbr.github.io/about/</link>
-      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloworldbr.github.io/about/</guid>
-      <description>Sobre Nós [será redigido]</description>
-    </item>
-    
-    <item>
-      <title>[Ubuntu] Instalando o Beyond Compare 4 (crackeado)</title>
-      <link>https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://helloworldbr.github.io/ubuntu-instalando-beyond-compare-4-crackeado/</guid>
-      <description>Um app que não pode faltar no meu setup de desenvolvimento é o Beyond Compare. Acho que nem sei mais trabalhar sem esse fantástico comparador de arquivos (inclusive que estão na nuvem).
-Bom, vamos lá… vou ensinar nesse artigo como instalar qualquer versão do Beyond Compare 4 no Ubuntu.
-Siga as inscruções Primeiro, vamos baixar no site oficial do app a versão 4, pra isso clique aqui. No meu caso que uso a distribuição do Ubuntu, baixei a versão Linux em Debian, segue o link.</description>
+{{% /section %}}
+{{% section id=&amp;ldquo;writing&amp;rdquo; %}}
+Writing  {{% time &amp;ldquo;09/10/1986&amp;rdquo; %}} Olá Mundo Cruél {{% time &amp;ldquo;09/10/1986&amp;rdquo; %}} Olá Mundo Cruél {{% time &amp;ldquo;09/10/1986&amp;rdquo; %}} Olá Mundo Cruél {{% time &amp;ldquo;09/10/1986&amp;rdquo; %}} Olá Mundo Cruél  {{% /section %}}</description>
     </item>
     
   </channel>
