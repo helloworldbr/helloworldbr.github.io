@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macete on Hello World Brasil</title>
+    <link>https://helloworldbr.github.io/tags/macete/</link>
+    <description>Recent content in Macete on Hello World Brasil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://helloworldbr.github.io/tags/macete/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[JavaScript] Back Redirect</title>
+      <link>https://helloworldbr.github.io/javascript-back-redirect/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/javascript-back-redirect/</guid>
+      <description>Recentemente trabalhei em um job onde precisava fazer o que chamam de back redirect. Era um site de venda, então a ideia era quando o usuário clicasse em &amp;ldquo;voltar&amp;rdquo; no navegador [desistindo da compra], ao invés de voltar de fato a página anterior, abrisse uma segunda página de venda com um desconto especial.
+Em outras palavras, é manipular a página anterior (pra não ser uma página anterior real, mas uma que eu queira que seja).</description>
+    </item>
+    
+  </channel>
+</rss>

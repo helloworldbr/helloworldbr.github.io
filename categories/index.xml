@@ -5,24 +5,61 @@
     <link>https://helloworldbr.github.io/categories/</link>
     <description>Recent content in Categories on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
     <lastBuildDate>Thu, 16 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://helloworldbr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Aplicativos</title>
-      <link>https://helloworldbr.github.io/categories/aplicativos/</link>
+      <title>Apps</title>
+      <link>https://helloworldbr.github.io/categories/apps/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://helloworldbr.github.io/categories/aplicativos/</guid>
+      <guid>https://helloworldbr.github.io/categories/apps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://helloworldbr.github.io/categories/javascript/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>https://helloworldbr.github.io/categories/php/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>https://helloworldbr.github.io/categories/regex/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips  Trips</title>
+      <link>https://helloworldbr.github.io/categories/tips--trips/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/categories/tips--trips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
       <link>https://helloworldbr.github.io/categories/ubuntu/</link>
-      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://helloworldbr.github.io/categories/ubuntu/</guid>
       <description></description>

@@ -30,7 +30,6 @@
 .clearfix:after {
   clear: both;
 }
-
 .left {
   float: left;
 }
@@ -390,8 +389,9 @@
 }
 .content small,
 .content small a{
-  font-size: 0.85em;
-  color: #666;
+  font-size: 0.90em;
+  color: #888;
+  border: 0;
 }
 .content acronym,
 .content abbr {
@@ -423,7 +423,7 @@
 }
 .content th {
   padding: 8px;
-  border-bottom: 1px dashed $color-code-border;
+  border-bottom: 1px dashed #666;
   color: #eee;
   font-weight: bold;
   font-size: 13px;
@@ -435,7 +435,7 @@
 @font-face {
   font-style: normal;
   font-family: "Meslo LG";
-  src: local("Meslo LG S"), url("../font-meslo/MesloLGS-Regular.ttf") format("truetype");
+  src: local("Meslo LG S"), url("../lib/meslo-LG/MesloLGS-Regular.ttf") format("truetype");
 }
 *,
 *:before,
@@ -478,20 +478,31 @@ body {
 }
 .content a {
   color: #c9cacc;
-  text-decoration: underline;
+  text-decoration: none;
   background-position: bottom;
   background-size: 100% 6px;
   background-repeat: repeat-x;
+  border-bottom: 1px solid #c9cacc;
+  padding-bottom: 2px;
 }
+
 .content a:hover {
-  color: #2bbc8a ;
+  color: #2bbc8a;
+  border-bottom: 1px solid #2bbc8a;
 }
 .content a.icon {
-  background: none;
+  border: 0;
 }
+
+.content a.icon .fa-github{
+  position: relative;
+  font-size:20px;
+}
+
 .content a.icon:hover {
   color: #2bbc8a;
 }
+
 .content h1 a,
 .content .h1 a,
 .content h2 a,
@@ -606,7 +617,7 @@ body {
 }
 #header #nav ul a {
   margin-right: 15px;
-  color: color-accent-1;
+  border: 0;
 }
 #header #nav ul a:hover {
   background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
@@ -746,7 +757,7 @@ body {
 }
 #header-post #nav ul a {
   margin-right: 15px;
-  color: color-accent-1;
+  //color: color-accent-1;
 }
 #header-post #nav ul a:hover {
   background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
@@ -902,7 +913,12 @@ body {
   color: #2bbc8a;
   font-size: 1em;
 }
-
+#footer-post #nav-footer a:hover {
+  background-image: linear-gradient(transparent, transparent 5px, #2bbc8a 5px, #2bbc8a);
+  background-position: bottom;
+  background-size: 100% 6px;
+  background-repeat: repeat-x;
+}
 #footer-post #nav-footer ul {
   display: table;
   margin: 0;
@@ -1009,16 +1025,13 @@ body {
   margin-left: 0;
   list-style-type: none;
 }
-ul li time,
 .post-list .post-item .meta {
-
+  display: block;
   margin-right: 16px;
   min-width: 100px;
   color: #666;
   font-size: 14px;
 }
-
-
 @media (min-width: 480px) {
   .post-list .post-item {
     display: flex;
@@ -1113,7 +1126,7 @@ article .content blockquote:before {
   line-height: 0.1em;
 }
 article .content blockquote footer {
-  margin: line-height 0;
+  /*margin: line-height 0;*/
   color: #666;
   font-size: 11px;
 }
@@ -1146,7 +1159,7 @@ article .content .caption {
   position: relative;
   display: block;
   margin-top: 0.5em;
-  color: color-grey;
+  /*color: color-grey;*/
   text-align: center;
   font-size: 0.9em;
 }
@@ -1230,9 +1243,11 @@ article .content .caption {
 }
 #footer a {
   color: #666;
+  border: none;
 }
 #footer a:hover {
-  color: #2bbc8a;
+  color: #858585;
+  border-bottom: 1px solid #858585;
 }
 #footer .footer-left {
   height: 20px;
@@ -1391,17 +1406,17 @@ article .content .caption {
 pre {
   overflow-x: auto;
   padding: 10px 15px;
-  padding-bottom: 0;
   border: 1px dotted #666;
   border-radius: 4px;
   font-size: 13px;
   font-family: "Menlo", "Meslo LG", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
+  background-color: #333;
 }
 pre code {
   display: block;
-  padding: 0;
+  padding: 15px 0;
   border: none;
 }
 code {
@@ -1438,10 +1453,12 @@ code {
 .highlight figcaption a:hover {
   color: #858585;
 }
+/*
 .highlight figcaption:before,
 .highlight figcaption content: "" {
   display: table;
 }
+*/
 .highlight figcaption:after {
   clear: both;
 }
@@ -1456,6 +1473,7 @@ code {
 .highlight td.gutter {
   text-align: right;
 }
+
 .highlight .line {
   height: 22px;
 }

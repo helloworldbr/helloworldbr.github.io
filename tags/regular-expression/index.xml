@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regular Expression on Hello World Brasil</title>
+    <link>https://helloworldbr.github.io/tags/regular-expression/</link>
+    <description>Recent content in Regular Expression on Hello World Brasil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 17 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://helloworldbr.github.io/tags/regular-expression/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[RegEx] Localizar Código do Youtube</title>
+      <link>https://helloworldbr.github.io/expressao-regular-pegar-codigo-youtube/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/expressao-regular-pegar-codigo-youtube/</guid>
+      <description>Volta e meia me deparo com campos de &amp;ldquo;Vídeo do Youtube&amp;rdquo; nos sites que desenvolvo. E um problema grande sempre é como cadastrar esse vídeo, afinal, o Youtube te dá várias opções de URL [e só o que eu preciso é o código do vídeo].
+Desenvolvi, então, uma Expressão Regular que retorna o código do vídeo indiferente da URL postada.
+Segue a RE:
+ Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
+    </item>
+    
+  </channel>
+</rss>
