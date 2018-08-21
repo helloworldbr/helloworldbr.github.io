@@ -30,7 +30,7 @@ Em outras palavras, é manipular a página anterior (pra não ser uma página an
       <description>Volta e meia me deparo com campos de &amp;ldquo;Vídeo do Youtube&amp;rdquo; nos sites que desenvolvo. E um problema grande sempre é como cadastrar esse vídeo, afinal, o Youtube te dá várias opções de URL [e só o que eu preciso é o código do vídeo].
 Desenvolvi, então, uma Expressão Regular que retorna o código do vídeo indiferente da URL postada.
 Segue a RE:
-[http|https]:\/\/(?:youtu\.be\/|(?:[a-z]{2,3}\.)?youtube\.com\/watch(?:\?|#\!)v=)([\w-]{11}).*  Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
+ Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
     </item>
     
   </channel>
