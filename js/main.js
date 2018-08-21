@@ -16,7 +16,7 @@ $(document).ready(function() {
   /**
    * Shows the responsive navigation menu on mobile.
    */
-  $("#header > #nav > ul > .icon.html").click(function() {
+  $("#header > #nav > ul > .icon a").click(function() {
     $("#header > #nav > ul").toggleClass("responsive");
   });
 
