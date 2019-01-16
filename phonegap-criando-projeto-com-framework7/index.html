@@ -3,30 +3,30 @@
 <head>
 
   
-  <title>Regular Expression - Hello World Brasil</title>
+  <title>[Phonegap] Criando Projeto com Framework7 - Hello World Brasil</title>
 
   
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="description" content="">
+  <meta name="description" content="Criando um projeto no Phonegap com Framework7">
   <meta http-equiv="Content-Language" content="pt-br">
 
-  <link rel="canonical" href="https://helloworldbr.github.io/tags/regular-expression/">
-  <meta property="og:url" content="https://helloworldbr.github.io/tags/regular-expression/">
+  <link rel="canonical" href="https://helloworldbr.github.io/phonegap-criando-projeto-com-framework7/">
+  <meta property="og:url" content="https://helloworldbr.github.io/phonegap-criando-projeto-com-framework7/">
 
   
 
   
 
-  <meta property="og:title" content="Regular Expression">
+  <meta property="og:title" content="[Phonegap] Criando Projeto com Framework7">
   <meta property="og:description" content="" name="description">
   <meta property="og:image" content="images/missing-img.png">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@helloworldbr">
-  <meta name="twitter:title" content="Regular Expression">
+  <meta name="twitter:title" content="[Phonegap] Criando Projeto com Framework7">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="images/missing-img.png">
 
@@ -97,6 +97,33 @@
 
   </header>
 
+
+
+<h1 id="phpnegap-criando-projeto-com-framework7">[Phpnegap] Criando projeto com Framework7</h1>
+
+<p>A sintaxe completa é mais extensa e você pode ver maiores detalhes <a href="http://docs.phonegap.com/references/phonegap-cli/create/">aqui na documentação oficial</a> do Phonegap, mas vou compartilhar nesse artigo
+o comando que normalmente utilizo em um projeto novo.</p>
+
+<pre><code>    $ phonegap create my-app br.com.dominio.my-app --template phonegap-template-framework7 my-app
+</code></pre>
+
+<p>Vamos lá! Vou explicar todos os comandos e parâmetros.</p>
+
+<ol>
+<li>Primeiro de tudo, logo depois do <code>create</code> vem o primeiro parâmetro, que é o <code>my-aoo</code>. Esse é o nome do seu app.</li>
+<li>Logo depois vem uma espécie de domínio ao contrário. Ele é o ID do seu app.
+Por default, se você não especificar, vem &ldquo;com.phonegap.hello-world&rdquo;, mas é legal você utilizar um próprio seu pra evitar conflitos lá na frente.</li>
+<li>Depois informamos que nosso projeto utilizará um template, que no caso é o Framework7 que nós queremos utilizar. Por isso está <code>--template phonegap-template-framework7</code></li>
+<li>Por último vem o <code>my-app</code> novamente, que é o nome do diretório que o Phonegap irá criar e colocará todo o seu projeto dentro.</li>
+</ol>
+
+<hr />
+
+<p>Depois do seu projeto criado, entre no diretório que você especificou (no exemplo seria um <code>cd my-app</code>) e execute o comando <code>phonegap serve</code> para testar no navegador de o projeto &ldquo;Hello World&rdquo; (padrão do phonegap) foi criado com sucesso.</p>
+
+<p>Dúvidas? Utilize os comentários.</p>
+
+<p>Até mais! <a href="https://github.com/tihhgoncalves">@tihhgoncalves</a></p>
 
 
   <footer id="footer">

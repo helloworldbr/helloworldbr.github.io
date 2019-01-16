@@ -62,6 +62,28 @@ Repositório —
     </item>
     
     <item>
+      <title>[Phonegap] Criando Projeto com Framework7</title>
+      <link>https://helloworldbr.github.io/phonegap-criando-projeto-com-framework7/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/phonegap-criando-projeto-com-framework7/</guid>
+      <description>[Phpnegap] Criando projeto com Framework7 A sintaxe completa é mais extensa e você pode ver maiores detalhes aqui na documentação oficial do Phonegap, mas vou compartilhar nesse artigo o comando que normalmente utilizo em um projeto novo.
+ $ phonegap create my-app br.com.dominio.my-app --template phonegap-template-framework7 my-app  Vamos lá! Vou explicar todos os comandos e parâmetros.
+ Primeiro de tudo, logo depois do create vem o primeiro parâmetro, que é o my-aoo.</description>
+    </item>
+    
+    <item>
+      <title>[Phonegap] Instalando no Windows</title>
+      <link>https://helloworldbr.github.io/phonegap-instalando-no-windows/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/phonegap-instalando-no-windows/</guid>
+      <description>[Phonegap] Instalando no Windows Esse e um guia rápido de como instalar o Phonegap em um computador com Windows.
+Pra ficar fácil e evitar trabalho desnecessário, vou testando pra ver o que você já tem ou não e vamos instalando pra que tudo esteja instado e pronto pro Phonegap funcionar redondo.
+1 - node.js Antes de tudo, vamos verificar se o node.js já está instalado na sua máquina. Se estiver, vai retornar a versão instalada:</description>
+    </item>
+    
+    <item>
       <title>[RegEx] Localizar Código do Youtube</title>
       <link>https://helloworldbr.github.io/expressao-regular-pegar-codigo-youtube/</link>
       <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
