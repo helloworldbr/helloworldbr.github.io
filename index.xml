@@ -13,10 +13,10 @@
     
     <item>
       <title>[SublimeText] Instalando e Configurando</title>
-      <link>https://helloworldbr.github.io/instalando/</link>
+      <link>https://helloworldbr.github.io/sublimetext-instalando/</link>
       <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://helloworldbr.github.io/instalando/</guid>
+      <guid>https://helloworldbr.github.io/sublimetext-instalando/</guid>
       <description>[SublimeText] Instalando e Configurando Esse é um guia rápido de como instalar o SublimeText em um computador com Windows e como configurar os plugins mais importantes para deixa-lo quase uma IDE, para desenvolvimento com PHP e NodeJS.
 Vale avisar, que embora estou mostrando como instalar e configurar no ambiente Windows, é extremamente possível instalar todos os itens desse artigo em uma maquina com Linux ou Mac. E se você quer colaborar com essa nossa lista de de plugins com alguma dica de um plugin que acho muito legal, basta deixar a sua dica nos comentários que iremos incorpora-la na lista oficial.</description>
     </item>

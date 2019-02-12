@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+
+  
+  <title>[SublimeText] Instalando e Configurando - Hello World Brasil</title>
+
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Tutorial que ensina como instalar o SublimeText e os principais plugins para deixa-lo uma IDE.">
+  <meta http-equiv="Content-Language" content="pt-br">
+
+  <link rel="canonical" href="https://helloworldbr.github.io/sublimetext-instalando/">
+  <meta property="og:url" content="https://helloworldbr.github.io/sublimetext-instalando/">
+
+  
+
+  
+
+  <meta property="og:title" content="[SublimeText] Instalando e Configurando">
+  <meta property="og:description" content="" name="description">
+  <meta property="og:image" content="images/missing-img.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@helloworldbr">
+  <meta name="twitter:title" content="[SublimeText] Instalando e Configurando">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="images/missing-img.png">
+
+  
+  <link rel="shortcut icon" href="https://helloworldbr.github.io/images/favicon.ico">
+  <link rel="icon" type="image/png" href="https://helloworldbr.github.io/images/favicon-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://helloworldbr.github.io/images/apple-touch-icon.png">
+
+  
+  <link rel="stylesheet" href="https://helloworldbr.github.io/css/style.css">
+  <link rel="stylesheet" href="https://helloworldbr.github.io/css/rtl.css">
+
+  <meta name="generator" content="Hugo 0.54.0" />
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124153994-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-124153994-1');
+  </script>
+
+  
+  <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '272314436704852');
+      fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=272314436704852&ev=PageView&noscript=1"
+  /></noscript>
+  
+
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+
+<div class="content index my4">
+
+  <header id="header">
+
+    
+    <a href="https://helloworldbr.github.io/">
+      <div id="logo" style="background-image: url(https://helloworldbr.github.io/images/logo.png);"></div>
+      <div id="title">
+        <h1>Hello World Brasil</h1>
+      </div>
+    </a>
+
+    
+    <div id="nav">
+      <ul>
+        <li class="icon"><a href="#"><i class="fas fa-bars fa-2x"></i></a></li>
+        <li><a href="https://helloworldbr.github.io/">Home</a></li>
+        <li><a href="https://helloworldbr.github.io/about/">About</a></li>
+        <li><a href="https://helloworldbr.github.io/blog/">Blog</a></li>
+        <li><a href="https://helloworldbr.github.io/blog/"></a></li>
+      </ul>
+    </div>
+
+  </header>
+
+
+
+<h1 id="sublimetext-instalando-e-configurando">[SublimeText] Instalando e Configurando</h1>
+
+<p>Esse é um guia rápido de como instalar o SublimeText em um computador com Windows e como configurar os plugins mais importantes para deixa-lo quase uma IDE, para desenvolvimento com PHP  e NodeJS.</p>
+
+<p>Vale avisar, que embora estou mostrando como instalar e configurar no ambiente Windows, é extremamente possível instalar todos os itens desse artigo em uma maquina com Linux ou Mac. E se você quer colaborar com essa nossa lista de
+de plugins com alguma dica de um plugin que acho muito legal, basta deixar a sua dica nos comentários que iremos incorpora-la na lista oficial.</p>
+
+<blockquote>
+<p>Uma boa dica é assistir esse video que mostra além de como instalar o sublime, algumas dicas de funcionamento do editor. <a href="https://www.youtube.com/watch?v=mwW4812nBA4">Sublime Text 3: Instalação, utilização e mais 20 plugins essenciais | Ferramentas Dev. Web</a></p>
+</blockquote>
+
+<hr />
+
+<h2 id="1-instalando-o-sublimetext">1 - Instalando o SublimeText</h2>
+
+<p>Para instalar o sublimetext, não tem segredo, basta acessar o site oficial (<a href="http://www.sublimetext.com/">http://www.sublimetext.com/</a>) do editor e escolher a melhor opção do instalar para sua versão do sistema operacional e instalar sem problemas.
+Quando tiver instalado certinho, abra o SublimeText e vamos inistalar os plugins mais show de bola para nos ajudar no desenvolvimento de PHP e NodeJS.</p>
+
+<h2 id="2-plugin-package-control">2 - [PlugIn] Package Control</h2>
+
+<p>O Package Control é aquele cara que vai ficar responsável por te dar acesso aos diversos plugins e temas do repositório do ST e vai gerenciar a instalação e remoção desses pacotes, para isso devemos seguir alguns passos:</p>
+
+<ul>
+<li>2.1 - Para instalar, acesse o site do <a href="https://packagecontrol.io/installation">Package Control</a> e copie o código de linha de comando referênte a sua versão do sublime.</li>
+<li>2.2 - Cole o código de instalação no Console do ST (View&gt;View Console) e dê um enter.</li>
+<li>2.3 - Pronto! O Package Control está instalado com sucesso!</li>
+</ul>
+
+<h2 id="3-plugin-emmet">3 - [PlugIn] Emmet</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/Emmet">PC: Emmet</a></p>
+</blockquote>
+
+<p>O queridinho número 1 da comunidade, é capaz de criar trechos de códigos enormes e complexos baseado em sua forma abreviada que ap dar um TAB, ele expande para o HTML formatado e identado de forma mágica.</p>
+
+<p>Para instalar um plugin, basta acessar o Package Control (CTRL/CMD+SHIFT+P) e digite Install. Ao aparecer Install Packages, dê um enter e comece a digitar Emmet. Ao aparecer o plugin, dê um ENTER para que o Package Control instale.</p>
+
+<p>Para sentir um pouquinho da mágica desse plugin, digite a abreviação abaixo e dê um TAB (com o cursor colado no último caracter)</p>
+
+<pre><code>    div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p
+</code></pre>
+
+<p>Site do Emmet: <a href="https://localhost/projetos/lacode/admin/emmet.io">emmet.io</a></p>
+
+<h2 id="4-plugin-bracket-highlighter">4 - [PlugIn] Bracket Highlighter</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/BracketHighlighter">PC: Bracket Highlighter</a></p>
+</blockquote>
+
+<p>Esse cara tem é uma mão na roda. Ele exibe próximo aos números das linhas de código a abertura e o fechamento do escopo que você está trabalhando. Por exemplo, se você está dentro de uma função e clica na chave de abertura, ele te mostra onde ela fecha!</p>
+
+<h2 id="5-plugin-color-picker">5 - [PlugIn] Color Picker</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/ColorPicker">PC: Color Picker</a></p>
+</blockquote>
+
+<p>A famosa paleta de cores das melhroes IDEs também está presente em forma de plugin para potencializar o ST. Abra o Package Control, digite Color Picker e instale. Agora basta dar um CTRL/CMD+SHIFT+C e o COlor Picker aparece para você apenas escolher a cor e ele lhe devolve o hexa decimal dela. O Color Picker pode demorar a executar em alguns computares.</p>
+
+<h2 id="6-plugin-color-highlighter">6 - [PlugIn] Color Highlighter</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/Color%20Highlighter">PC: Color Highlighter</a></p>
+</blockquote>
+
+<p>Este plugin ajuda na vizualização de código hexa de cores (ex. #FF0000), colocando embaixo da cores uma barrinha com a cor representante do código.</p>
+
+<h2 id="7-plugin-sidebar-enhacements">7 - [PlugIn] Sidebar Enhacements</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/Side​Bar​Enhancements">PC: Sidebar Enhacements</a></p>
+</blockquote>
+
+<p>A barra lateral do ST é bem simples e quase não tem opções. Com esse plugin você popula a sua sidebar com ações incríveis como, escolher um programa para executar imagens, busca avançada de arquivos por trechos de código, abrir pasta local do arquivos entre muitas outras opções.</p>
+
+<h2 id="8-plugin-css3">8 - [PlugIn] CSS3</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/CSS3">PC: CSS3</a></p>
+</blockquote>
+
+<p>Para trabalhar com autocompletes bem feitos e a própria sintaxe dos seletores CSS3, este plugin é capaz de detectar e prover autocompletes de seletores e classes além de te dar também o : e o ; com o cursor no meio apenas para digitar o comando. É um obrigatório dentre os plugins.</p>
+
+<h2 id="9-plugin-autofilename">9 - [PlugIn] AutoFileName</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/AutoFileName">PC: AutoFileName</a></p>
+</blockquote>
+
+<p>Este plugin faz com que ao incluir arquivos em seu código, ele exiba o caminho e o conteúdo das pastas para que você tenha um panorama de onde está na hieranquia de pastas do seu projeto.</p>
+
+<h2 id="10-plugin-phpgrammar">10 - [PlugIn] PHPGrammar</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/PHPGrammar">PC: PHPGrammar</a></p>
+</blockquote>
+
+<p>Não podemos deixar o nosso querido PHP de fora, afinal ele é tem uma função muito importante em nosso projeto certo?</p>
+
+<p>O PHPGrammar &ldquo;ensina&rdquo; o sublime a interpretar as cores da linguagem, identação e convenções de código.</p>
+
+<h2 id="11-plugin-php-completions-kit">11 - [PlugIn] PHP Completions Kit</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/PHP%20Completions%20Kit">PC: PHP Completions Kit</a></p>
+</blockquote>
+
+<p>Ainda falando em PHP, temos o PHP Compleitions Kit que provê umbom autocomplete para trabalhar com orientação a objetos e dá suporte as principais funções da linguagem. Permite que sejam criados métodos mágicos, o operados $THIS além de muito mais!</p>
+
+<h2 id="12-plugin-git">12 - [PlugIn] Git</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/Git">PC: Git</a></p>
+</blockquote>
+
+<p>Claro que para um bom programador, o Git não poderia ficar de fora!
+Com ele você terá uma lista de comando do git para fazer o checkout, commit, push, pull&hellip;. para tornar o seu dia-a-dia mais produtivo.</p>
+
+<h2 id="13-plugin-gitgutter">13 - [PlugIn] GitGutter</h2>
+
+<blockquote>
+<p><a href="https://packagecontrol.io/packages/GitGutter">PC: GitGutter</a></p>
+</blockquote>
+
+<p>Esse plugin, ajuda você, mostrando atravéz de indicadores no lado da barrinha que mostra o número da linha a situação da linha, se ele foi alterada, incluída, escluida e se já foi commitada.</p>
+
+<h2 id="14-plugin-php-debug">14 - [PlugIn] PHP Debug ???</h2>
+
+<p>Ainda não conseguimos fazer funcionar o XDebug no sublime, mas estamos etudando como fazer isso de uma forma correta e assim que conseguirmos já colocamos aqui.</p>
+
+<h2 id="15-plugin-nodejs-debug">15 - [PlugIn] NodeJS Debug ???</h2>
+
+<p>Ainda não conseguimos fazer funcionar o debug do nodejs no sublime, mas estamos etudando como fazer isso de uma forma correta e assim que conseguirmos já colocamos aqui.</p>
+
+<hr />
+
+<h1 id="pronto">Pronto!</h1>
+
+<p>Aqui esta uma listinha básica para ajudar o seu ST a ficar com uma carinha mais de IDE para ajudar você que é desenvolvedor.</p>
+
+<p>Até mais!
+<a href="https://github.com/brunogoncalves">@bugotech</a></p>
+
+
+<p>-</p>
+
+<h2>Deixe um comentário</h2>
+<div class="tb-comments">
+
+  <div id="disqus_thread"></div>
+
+  <script>
+      
+
+      var disqus_config = function () {
+          this.page.url = "https://helloworldbr.github.io/sublimetext-instalando/";  
+          this.page.identifier =  null ; 
+      };
+      (function() { 
+          var d = document, s = d.createElement('script');
+          s.src = 'https://helloworldbr-github-io.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
+
+
+  <footer id="footer">
+    <div class="footer-left">Copyright &copy; 2019 </div>
+    <div class="footer-right">
+
+      
+      <nav>
+        <ul>
+          <li><a href="https://helloworldbr.github.io/">Home</a></li>
+          <li><a href="https://helloworldbr.github.io/about/">About</a></li>
+          <li><a href="https://helloworldbr.github.io/blog/">Blog</a></li>
+          <li><a href="https://helloworldbr.github.io/blog/"></a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
+
+  <script id="dsq-count-scr" src="//helloworldbr-github-io.disqus.com/count.js" async></script>
+</body>
+</html>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://helloworldbr.github.io/lib/justified-gallery/css/justifiedGallery.min.css">
+
+
+<script src="https://helloworldbr.github.io/lib/jQuery/jquery.min.js"></script>
+<script src="https://helloworldbr.github.io/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="https://helloworldbr.github.io/js/main.js"></script>
+
+
