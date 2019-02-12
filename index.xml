@@ -6,10 +6,20 @@
     <description>Recent content on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://helloworldbr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[SublimeText] Instalando e Configurando</title>
+      <link>https://helloworldbr.github.io/instalando/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/instalando/</guid>
+      <description>[SublimeText] Instalando e Configurando Esse é um guia rápido de como instalar o SublimeText em um computador com Windows e como configurar os plugins mais importantes para deixa-lo quase uma IDE, para desenvolvimento com PHP e NodeJS.
+Vale avisar, que embora estou mostrando como instalar e configurar no ambiente Windows, é extremamente possível instalar todos os itens desse artigo em uma maquina com Linux ou Mac. E se você quer colaborar com essa nossa lista de de plugins com alguma dica de um plugin que acho muito legal, basta deixar a sua dica nos comentários que iremos incorpora-la na lista oficial.</description>
+    </item>
     
     <item>
       <title>[JavaScript] Back Redirect</title>
@@ -40,7 +50,7 @@ ls -lha  O truque é muito simples, vamos criar, na verdade, um alias pra sempre
       <description>Esse ambiente é um projeto livre dos irmãos @bugotech e @tihhgoncalves sobre tecnologia. Os conteúdos aqui divulgados para fins de ajuda a outros desenvolvedores.
 Esse também é um projeto colaborativo e você pode contribuir com 100% desse site acessando o repositório e fazendo sua contribuição via Fork.
 Repositório — 
-</description>
+ </description>
     </item>
     
     <item>
@@ -92,7 +102,7 @@ Pra ficar fácil e evitar trabalho desnecessário, vou testando pra ver o que vo
       <description>Volta e meia me deparo com campos de &amp;ldquo;Vídeo do Youtube&amp;rdquo; nos sites que desenvolvo. E um problema grande sempre é como cadastrar esse vídeo, afinal, o Youtube te dá várias opções de URL [e só o que eu preciso é o código do vídeo].
 Desenvolvi, então, uma Expressão Regular que retorna o código do vídeo indiferente da URL postada.
 Segue a RE:
- Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
+[http|https]:\/\/(?:youtu\.be\/|(?:[a-z]{2,3}\.)?youtube\.com\/watch(?:\?|#\!)v=)([\w-]{11}).*  Porém, pra facilitar a minha vida (e talvez a sua), fiz uma função que você passa por parâmetro a URL do Youtube e retorna o código do vídeo.</description>
     </item>
     
     <item>

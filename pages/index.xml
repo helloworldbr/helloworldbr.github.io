@@ -6,10 +6,20 @@
     <description>Recent content in Pages on Hello World Brasil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 17 Aug 2018 12:18:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://helloworldbr.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[SublimeText] Instalando e Configurando</title>
+      <link>https://helloworldbr.github.io/instalando/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://helloworldbr.github.io/instalando/</guid>
+      <description>[SublimeText] Instalando e Configurando Esse é um guia rápido de como instalar o SublimeText em um computador com Windows e como configurar os plugins mais importantes para deixa-lo quase uma IDE, para desenvolvimento com PHP e NodeJS.
+Vale avisar, que embora estou mostrando como instalar e configurar no ambiente Windows, é extremamente possível instalar todos os itens desse artigo em uma maquina com Linux ou Mac. E se você quer colaborar com essa nossa lista de de plugins com alguma dica de um plugin que acho muito legal, basta deixar a sua dica nos comentários que iremos incorpora-la na lista oficial.</description>
+    </item>
     
     <item>
       <title>Home</title>
@@ -20,7 +30,7 @@
       <description>Esse ambiente é um projeto livre dos irmãos @bugotech e @tihhgoncalves sobre tecnologia. Os conteúdos aqui divulgados para fins de ajuda a outros desenvolvedores.
 Esse também é um projeto colaborativo e você pode contribuir com 100% desse site acessando o repositório e fazendo sua contribuição via Fork.
 Repositório — 
-</description>
+ </description>
     </item>
     
     <item>
